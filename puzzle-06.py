@@ -37,6 +37,6 @@ while 1:
         else:
             block[2] = 1
 
-    if block[0] == block[1] == block[2]:
+    if block == [1,1,1]:
         break
 print("You won!!!")
